@@ -13,11 +13,4 @@ public class TestJUnit1 {
 		System.out.println("In testPrintMessage");
 		assertEquals(message, messageUtil.printMessage());
 	}
-	
-	@Test
-	public void testSalutationMessage() {
-		System.out.println("In testSalutationMessage");
-		assertEquals("Hi! " + message, messageUtil.salutationMessage());
-	}
-
 }
