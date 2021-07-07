@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class InputExample1 {
 	public static void main(String args[]) {
 		Scanner scanner = new Scanner(System.in);
-		//scanner.useDelimiter(";");
 		int count = 0;
 		while(scanner.hasNext()) {
 			count++;
