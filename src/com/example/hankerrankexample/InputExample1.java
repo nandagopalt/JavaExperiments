@@ -11,6 +11,6 @@ public class InputExample1 {
 			String input = scanner.nextLine();
 			System.out.println(String.format("%d %s", count,input));
 		}
-		scanner.close();
+		scanner.close();  
 	}
 }
